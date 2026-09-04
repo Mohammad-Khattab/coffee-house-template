@@ -7,19 +7,19 @@ import {
   Menu as MenuIcon, X,
 } from 'lucide-react';
 
-/* ── Contact ─────────────────────────────────────────────── */
-const TALABAT_HREF = 'https://www.talabat.com/jordan/restaurant/740221/zghairon-cafe-al-rjoum';
-const IG_HREF      = 'https://www.instagram.com/zghairon_cafe';
-const MAPS_HREF    = 'https://maps.google.com/?q=Zghairon+Cafe+Al-Khalha+Stairs+Downtown+Amman+Jordan';
-const PHONE        = '+962 7 9777 3388';
+/* ── Contact — demo placeholders, not a real business ───────── */
+const TALABAT_HREF = '#';
+const IG_HREF      = '#';
+const MAPS_HREF    = '#';
+const PHONE        = '+962 7 000 0000';
 
-/* ── Slideshow ───────────────────────────────────────────── */
+/* ── Slideshow — placeholder gradients, not real photos ─────── */
 const SLIDES = [
-  { url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/08/c0/4d/it-s-not-a-place-to-visit.jpg', pos: 'center 30%' },
-  { url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/08/c0/52/it-s-not-a-place-to-visit.jpg', pos: 'center center' },
-  { url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/08/c0/4e/it-s-not-a-place-to-visit.jpg', pos: 'center 40%' },
-  { url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/08/c0/51/it-s-not-a-place-to-visit.jpg', pos: 'center 55%' },
-  { url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/08/c2/3f/amazing-place-to-visit.jpg',   pos: 'center center' },
+  { gradient: 'linear-gradient(135deg, #3a2418 0%, #6b4226 100%)' },
+  { gradient: 'linear-gradient(135deg, #2c1810 0%, #8b5e3c 100%)' },
+  { gradient: 'linear-gradient(135deg, #4a2e1a 0%, #c1440e 100%)' },
+  { gradient: 'linear-gradient(135deg, #1e0e08 0%, #5a3a25 100%)' },
+  { gradient: 'linear-gradient(135deg, #3a2418 0%, #a3673f 100%)' },
 ];
 
 /* ── Menu data — names always bilingual, descs translate ─── */
@@ -95,23 +95,23 @@ const T = {
     langBtn: 'ع',
     nav: { about: 'About', menu: 'Menu', visit: 'Visit', wa: 'Talabat', order: 'Order on Talabat' },
     hero: {
-      eyebrow: 'Downtown Amman · Al-Balad',
-      sub: 'Your cozy escape in Downtown Amman.',
-      subsub: 'Art · Coffee · Balad views.',
+      eyebrow: 'Coffee · Culture · Community',
+      sub: 'Your cozy neighborhood coffee house.',
+      subsub: 'Art · Coffee · Good company.',
       cta1: 'View Menu', scroll: 'Scroll',
     },
     about: {
       eyebrow: 'Our Story',
       h: ['A small café', 'with a big ', 'soul.'],
-      p1: "Tucked behind a green door at the al-Khalha stairs of Downtown Amman, Zghairon feels less like a café and more like someone's warmly curated living room — orange velvet sofas, mosaic tiled floors, a chandelier overhead, and gallery walls filled with Jordanian memory.",
+      p1: "Tucked into a quiet corner of the city, Coffee House feels less like a café and more like someone's warmly curated living room — orange velvet sofas, mosaic tiled floors, a chandelier overhead, and gallery walls filled with local memory.",
       p2: "We pour Arabic coffee with cardamom and dates, brew espresso from local roasters, and bake everything in-house. Come to read, to talk, to sit with your thoughts. There's no rush here.",
       stats: [['Art on the Walls','Rotating shows'],['Local Roasts','Sourced weekly'],['Three Stories','Ground to rooftop']],
     },
     menu: { eyebrow: 'What We Serve', heading: 'The Menu', priceNote: 'All prices in JOD' },
     footer: {
-      desc: 'Specialty coffee, local art, and three stories of warmth in the heart of Al-Balad.',
+      desc: 'Specialty coffee, local art, and three stories of warmth.',
       visitLabel: 'Visit Us',
-      address: ['Al-Khalha Stairs, Downtown', 'Amman, Jordan'],
+      address: ['City Center', 'Amman, Jordan'],
       hours: 'Daily · 9:30 AM – 12:00 AM',
       followLabel: 'Follow',
       orderLabel: 'Order Now',
@@ -123,23 +123,23 @@ const T = {
     langBtn: 'EN',
     nav: { about: 'عن المكان', menu: 'المنيو', visit: 'تواصل', wa: 'طلبات', order: 'اطلب عبر طلبات' },
     hero: {
-      eyebrow: 'وسط البلد · عمّان',
-      sub: 'ملجأك الدافئ في قلب وسط البلد.',
-      subsub: 'فن · قهوة · إطلالة البلد.',
+      eyebrow: 'قهوة · ثقافة · مجتمع',
+      sub: 'ملجأك الدافئ في حيّك.',
+      subsub: 'فن · قهوة · رفقة طيبة.',
       cta1: 'اعرض المنيو', scroll: 'تمرير',
     },
     about: {
       eyebrow: 'قصتنا',
       h: ['كافيه صغير', 'بروح ', 'كبيرة.'],
-      p1: 'مختبئ خلف باب أخضر على درج الخلّة في قلب وسط البلد، صغيرون أشبه بغرفة معيشة دافئة منه بكافيه — أرائك مخملية برتقالية، أرضيات فسيفسائية، ثريا معلّقة، وجدران مليئة بذاكرة أردنية.',
+      p1: 'مختبئ في ركن هادئ من المدينة، بيت القهوة أشبه بغرفة معيشة دافئة منه بكافيه — أرائك مخملية برتقالية، أرضيات فسيفسائية، ثريا معلّقة، وجدران مليئة بذاكرة محلية.',
       p2: 'نقدّم القهوة العربية بالهيل والتمر، نحمّص القهوة من محمّصات أردنية محلية، ونخبز كل شيء بأيدينا. تعال للقراءة، للحديث، للجلوس مع أفكارك. لا عجلة هنا.',
       stats: [['فن على الجدران','معارض متجددة'],['تحميص محلي','يصل أسبوعياً'],['ثلاثة طوابق','من الأرض للسطح']],
     },
     menu: { eyebrow: 'ماذا نقدّم', heading: 'المنيو', priceNote: 'الأسعار بالدينار الأردني' },
     footer: {
-      desc: 'قهوة مختصّة، فن محلي، وثلاثة طوابق من الدفء في قلب البلد.',
+      desc: 'قهوة مختصّة، فن محلي، وثلاثة طوابق من الدفء.',
       visitLabel: 'زورونا',
-      address: ['درج الخلّة، وسط البلد', 'عمّان، الأردن'],
+      address: ['وسط المدينة', 'عمّان، الأردن'],
       hours: 'يومياً · ٩:٣٠ ص – ١٢ م',
       followLabel: 'تابعونا',
       orderLabel: 'اطلب الآن',
@@ -277,7 +277,7 @@ const CSS = `
 `;
 
 /* ── Component ───────────────────────────────────────────── */
-export default function ZghaironCafe() {
+export default function CoffeeHouse() {
   const [scrolled,  setScrolled]  = useState(false);
   const [mobOpen,   setMobOpen]   = useState(false);
   const [slide,     setSlide]     = useState(0);
@@ -346,7 +346,7 @@ export default function ZghaironCafe() {
           <button className="zc-logo-btn"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <span className="zc-logo-name" style={{ color: logoColor }}>
-              {isAr ? 'صغيرون' : 'Zghairon'}
+              {isAr ? 'بيت القهوة' : 'Coffee House'}
             </span>
             <span className="zc-logo-sub" style={{ color: subColor }}>
               {isAr ? 'كافيه' : 'Café'}
@@ -377,7 +377,7 @@ export default function ZghaironCafe() {
       <section className="zc-hero" id="home">
         {SLIDES.map((s, i) => (
           <div key={i} className={`zc-slide ${i === slide ? 'active' : ''}`}
-               style={{ backgroundImage: `url(${s.url})`, backgroundPosition: s.pos }} />
+               style={{ background: s.gradient }} />
         ))}
         <div className="zc-hero-overlay" />
 
@@ -391,7 +391,7 @@ export default function ZghaironCafe() {
           </div>
 
           <h1 className="zc-d zc-r1" style={{ fontSize:'clamp(3.8rem,14vw,9.5rem)', fontWeight:300, color:'#F5ECD7', lineHeight:.94, letterSpacing:'-.025em', marginBottom:4 }}>
-            {isAr ? 'صغيرون' : 'Zghairon'}
+            {isAr ? 'بيت القهوة' : 'Coffee House'}
           </h1>
           <p className="zc-d zc-r1" style={{ fontSize:'clamp(3.8rem,14vw,9.5rem)', fontWeight:700, fontStyle: isAr ? 'normal' : 'italic', color:'#E8845A', lineHeight:1, letterSpacing:'-.028em', marginBottom:36 }}>
             {isAr ? 'كافيه' : 'Café'}
@@ -431,13 +431,7 @@ export default function ZghaironCafe() {
       <section id="about" className="zc-about" style={{ padding:'clamp(64px,8vw,120px) 24px' }}>
         <div style={{ maxWidth:1100, margin:'0 auto' }}>
           <div className="zc-about-grid">
-            <div className="zc-about-photo">
-              <img
-                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/08/c0/4d/it-s-not-a-place-to-visit.jpg"
-                alt="Zghairon Café interior"
-                loading="lazy"
-              />
-            </div>
+            <div className="zc-about-photo" style={{ background: 'linear-gradient(135deg, #3a2418 0%, #8b5e3c 100%)' }} />
 
             <div>
               <span style={{ fontSize:'.67rem', letterSpacing:'.2em', textTransform:'uppercase', color:'#8B5E3C', fontWeight:500 }}>
@@ -540,7 +534,7 @@ export default function ZghaironCafe() {
 
             <div>
               <div className="zc-d" style={{ fontSize:'2rem', fontStyle: isAr ? 'normal' : 'italic', fontWeight:600, color:'#F5ECD7', marginBottom:10, letterSpacing:'-.01em' }}>
-                {isAr ? 'صغيرون' : 'Zghairon'}
+                {isAr ? 'بيت القهوة' : 'Coffee House'}
               </div>
               <p style={{ fontSize:'.84rem', lineHeight:1.75, color:'rgba(245,236,215,.36)', maxWidth:210, fontWeight:300 }}>
                 {t.footer.desc}
@@ -575,7 +569,7 @@ export default function ZghaironCafe() {
               </div>
               <a href={IG_HREF} target="_blank" rel="noopener noreferrer"
                  style={{ display:'inline-flex', alignItems:'center', gap:10, color:'rgba(245,236,215,.52)', fontSize:'.84rem', fontWeight:300, transition:'color .2s' }}>
-                <AtSign size={15} /> zghairon_cafe
+                <AtSign size={15} /> coffeehouse
               </a>
               <div style={{ marginTop:12 }}>
                 <a href={`tel:${PHONE}`} dir="ltr"
@@ -603,11 +597,11 @@ export default function ZghaironCafe() {
           <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap', gap:10 }}>
             <span style={{ fontSize:'.7rem', color:'rgba(245,236,215,.18)', fontWeight:300 }}>
               {isAr
-                ? `© ${new Date().getFullYear()} صغيرون كافيه · عمّان`
-                : `© ${new Date().getFullYear()} Zghairon Café · Amman`}
+                ? `© ${new Date().getFullYear()} بيت القهوة · قالب موقع`
+                : `© ${new Date().getFullYear()} Coffee House · Website Template`}
             </span>
             <span style={{ fontSize:'.88rem', fontStyle:'italic', color:'rgba(245,236,215,.18)', fontFamily:"'Cairo',sans-serif" }}>
-              صغيرون
+              بيت القهوة
             </span>
           </div>
         </div>

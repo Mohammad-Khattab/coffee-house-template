@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Zghairon Café',
-  description: 'A cozy café in Al Rjoum — coffee, food, and good vibes.',
+  title: 'Coffee House — Website Template',
+  description: 'A demo coffee shop landing page — bilingual EN/AR, coffee, food, and good vibes.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

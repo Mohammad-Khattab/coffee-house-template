@@ -1,8 +1,8 @@
-# Zghairon Cafe Website
+# Coffee House — Website Template
 
-A restaurant landing page built as a freelance/client project for **Zghairon Cafe**, a cafe located on the Al-Khalha Stairs in Downtown Amman (Al-Balad), Jordan.
+A restaurant/cafe landing page template. This is a demo/portfolio piece — not built for or affiliated with any real, existing business. Names, contact details, and location are placeholders.
 
-The site is a single-page marketing site designed to give the cafe a clean, modern web presence: it introduces the space, showcases the full menu, and routes visitors straight to the cafe's real-world contact channels (Talabat for delivery, Instagram, Google Maps, and phone).
+The site is a single-page marketing template: it introduces the space, showcases a full menu, and demonstrates the kind of contact/ordering flow (delivery link, Instagram, maps, phone) a real cafe site would need — with placeholder values in place of real ones.
 
 ## Features
 
@@ -10,7 +10,7 @@ The site is a single-page marketing site designed to give the cafe a clean, mode
 - **Hero image slideshow** — auto-rotating background slides with a subtle Ken Burns zoom effect and manual dot navigation
 - **Interactive menu** — categorized tabs (Hot Drinks, Cold Drinks, Breakfast, Bites, Sweets) with bilingual item names, descriptions, and prices
 - **About section** — cafe story and highlight stats
-- **Contact & visit footer** — address with a Google Maps link, opening hours, Instagram link, phone number, and a prominent "Order on Talabat" call to action
+- **Contact & visit footer** — address, opening hours, social link, phone number, and a prominent delivery-order call to action
 - **Responsive design** — mobile hamburger navigation, responsive grid layouts for the menu and footer
 - **Security headers** — sensible defaults configured in `next.config.mjs` (CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy, etc.)
 
@@ -68,4 +68,4 @@ next.config.mjs   # Next.js config with security headers
 
 ## Notes
 
-This project was built for a real, existing business (Zghairon Cafe) as a client/portfolio piece. Content such as the menu, address, phone number, and social links reflect the cafe's actual public business information.
+This is a template/demo, not a real client project. Contact links, address, phone number, and photos are all placeholders — swap them for real values to adapt it for an actual business.
